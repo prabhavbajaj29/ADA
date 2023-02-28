@@ -1,6 +1,6 @@
 /******************************************************************************
 
-Binary search searches in O(logn) time
+PRABHAV_BAJAJ 21103109
 *******************************************************************************/
 #include <iostream>
 
@@ -33,7 +33,10 @@ int main()
 {
     int arr[11]={1, 4, 7, 7, 8, 9, 18, 27, 31, 56, 81};
     
-    cout<<binary_search(arr,11,8)<<endl;
+    int ele;
+    cin>>ele;
+    
+    cout<<"It is present at index: "<<binary_search(arr,11,ele)<<endl;
 
     return 0;
 }
