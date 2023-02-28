@@ -14,7 +14,7 @@ int binary_search(int arr[],int n,int element){
     
     while(start<=end){
         if(arr[mid]==element){
-            return arr[mid];
+            return mid;
         }
         else if(arr[mid]>element){
             end=mid-1;
